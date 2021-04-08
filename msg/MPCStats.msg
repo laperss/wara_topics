@@ -7,6 +7,6 @@ int8 TERMINAL      =   2        # Inside terminal set
 int8 ABORT         =   3        # Landing aborted
 
 int8      mode
-float32   time
+float32   solve_time
 MPCStat   hrz
 MPCStat   vrt

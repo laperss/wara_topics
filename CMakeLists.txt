@@ -30,9 +30,15 @@ add_message_files(
    UAVState.msg
    USVState.msg
    RelState.msg
+   UAVControls.msg
    Control.msg
    Path.msg
    ControlBoat.msg
+)
+
+add_service_files(
+  FILES
+  ControlFeedback.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
